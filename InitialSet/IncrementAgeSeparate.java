@@ -34,7 +34,7 @@ public class IncrementAgeSeparate {
         // Create a second object called Dad
         PersonalInfoBasic Dad = new PersonalInfoBasic();
 
-        Dad.age = 53;
+        Dad.age = 54;
         Dad.name = "Dad";
 
         System.out.println("Name, age = " + Dad.name + ", " + Dad.age);

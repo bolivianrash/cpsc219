@@ -1,4 +1,12 @@
-public class VariablesAndArithmetic {
+/***********
+ * 
+ * Application: VariablesAndArithmetic
+ * Purpose: Demo of primitive variables and int and double arithmetic 
+ * @author Olivia :)
+ ******/
+ 
+ public class VariablesAndArithmetic {
+
 	public static void main(String[] args) {
 		int num; // declaration
 		num = 7; // initialize
