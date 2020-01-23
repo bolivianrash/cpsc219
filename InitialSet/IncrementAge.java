@@ -28,7 +28,7 @@ public class IncrementAge {
         
         // Set a new name and age
         Olivia.SetName("Dad");
-        Olivia.SetAge(53);
+        Olivia.SetAge(54);
         
         System.out.println("Name, age = " + Olivia.GetName() + ", " + Olivia.GetAge());
 

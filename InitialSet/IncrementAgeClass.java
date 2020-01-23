@@ -27,7 +27,7 @@ public class IncrementAgeClass {
         // Create a second object called DadAge
         IncrementAgeClass DadAge = new IncrementAgeClass();
 
-        DadAge.age = 53;
+        DadAge.age = 54;
         DadAge.name = "Dad";
 
         System.out.println("Name, age = " + DadAge.name + ", " + DadAge.age);

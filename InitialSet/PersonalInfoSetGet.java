@@ -15,14 +15,14 @@
  *******************************/
 public class PersonalInfoSetGet {
     int age;
-    String name; // name cannot be overwritten or changed.
+    String firstname; // name cannot be overwritten or changed.
 
     // Create a constructor method (that will be called anytime an object
     // is created.
     //
     public PersonalInfoSetGet(int initial_age, String initial_name) {
         age = initial_age;
-        name = initial_name;
+        firstname = initial_name;
     }
 
     // Create a method to increment age by 1 year
@@ -45,10 +45,10 @@ public class PersonalInfoSetGet {
     }
 
     public void SetName(String setname){
-        name = setname;
+        firstname = setname;
     }
 
     public String GetName(){
-        return name;
+        return firstname;
     }
 }
