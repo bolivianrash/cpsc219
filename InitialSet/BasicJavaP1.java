@@ -8,15 +8,22 @@ public class BasicJavaP1{
 		return c;
 	}
 	public static boolean willRoundUp(double num) {
-		int num2 = (int)num*10;
+		int num2 = (int) (num*10.0);
 		int num3 = num2%10;
 		boolean result = num3 >= 5;
+		System.out.println(num + " " + num2 + " " + num3 + " " + result);
 		return result;
 	}
 	public static int sumRange(int start, int end) {
 		int sum = 0;
-		for (int i=start;i<end;i++) {
-			sum = sum + i;
+		if (start<end) {
+			for (int i=start;i<end;i++) {
+				sum = sum + i;
+			}
+		} else {
+			for (int i=start;i>end;i--) {
+				sum = sum + i;
+			}
 		}
 		return sum;
 	}

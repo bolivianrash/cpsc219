@@ -8,7 +8,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class BasicJavaP1TestForEclipse {
-	String filename = "src/BasicJavaP1.java";
+	String filename = "BasicJavaP1.java";
 
 	private boolean containsImportStatement() {
 		boolean containsImport = false;
